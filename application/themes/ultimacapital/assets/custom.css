@@ -1,0 +1,71 @@
+html body * {
+  font-family: "Glacial Indifference";
+}
+
+div.section .editable_32 p {
+  font-size: 40px;
+  line-height: 1.3em;
+}
+
+.ccm-edit-mode .cover-over {
+  z-index: 0;
+}
+
+.ccm-edit-mode .cover-slider {
+  pointer-events: auto;
+}
+
+.grecaptcha-badge {
+  display: none !important;
+}
+.ui-dialog {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+}
+.ui-widget-content {
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.awards-block__item .editable p {
+  text-align: left;
+}
+
+.cover-over .cover-over__logo {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.cover-over__logo .img-inner .cover-content__inner {
+  width: 100%;
+  padding: 0 32px;
+}
+
+.cover-over__logo .img-inner .cover-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.cover-slider {
+  position: relative;
+  background-color: #000;
+}
+
+.cover-slider .swiper-container {
+  opacity: 0.7;
+}
+
+.cover-slider__pattern {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  height: 60%;
+  z-index: 2;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
