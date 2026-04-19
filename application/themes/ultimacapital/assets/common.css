@@ -441,7 +441,7 @@
   left: 0;
   height: 1px;
   width: 100%;
-  background-color: #fff;
+  background-color: #121213;
   transition:
     background-color 0.35s cubic-bezier(0.3, 0.1, 0.3, 1),
     -webkit-transform 0.35s cubic-bezier(0.3, 0.1, 0.3, 1);
@@ -2015,7 +2015,7 @@
   height: 8px;
   display: inline-block;
   border-radius: 100%;
-  background: #000;
+  background: #121213;
   opacity: 0.2;
 }
 button.swiper-pagination-bullet {
@@ -2223,14 +2223,14 @@ button.swiper-pagination-bullet {
   background: #fff;
 }
 .swiper-pagination-black .swiper-pagination-bullet-active {
-  background: #000;
+  background: #121213;
 }
 .swiper-pagination-progressbar.swiper-pagination-black {
   background: rgba(0, 0, 0, 0.25);
 }
 .swiper-pagination-progressbar.swiper-pagination-black
   .swiper-pagination-progressbar-fill {
-  background: #000;
+  background: #121213;
 }
 .swiper-pagination-lock {
   display: none;
@@ -2415,7 +2415,7 @@ button.swiper-pagination-bullet {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #000;
+  background: #121213;
   opacity: 0.6;
   -webkit-filter: blur(50px);
   filter: blur(50px);
@@ -2685,11 +2685,11 @@ button.swiper-pagination-bullet {
   z-index: 1;
   bottom: 0;
   height: 180px;
-  background: linear-gradient(180deg, transparent, #000);
+  background: linear-gradient(180deg, transparent, #121213);
 }
 .main-slider-img .img-inner {
   padding-top: 58%;
-  background-color: #000;
+  background-color: #121213;
   overflow: hidden;
 }
 @media (max-width: 63.9375rem) {
@@ -3444,7 +3444,6 @@ button.swiper-pagination-bullet {
   color: currentColor;
   letter-spacing: -0.04em;
   text-transform: none;
-  overflow: hidden;
   display: inline-block;
   z-index: 1;
   transition: color 0.35s cubic-bezier(0.3, 0.1, 0.3, 1);
@@ -7061,6 +7060,15 @@ h6_12 {
     align-items: center;
   }
 }
+
+@media (max-width: 768px) {
+  .cover-slider,
+.cover-over__logo .img-inner {
+  background-color: transparent !important; 
+  height: 50px;
+}
+}
+
 .cover-over__logo .img-inner {
   height: 100%;
 }
@@ -7086,7 +7094,7 @@ h6_12 {
 }
 @media (max-width: 63.9375rem) {
   .cover-over__logo .img-inner .cover-content {
-    background-color: #333132;
+    /* background-color: #333132; */
     display: flex;
     align-items: flex-end;
   }
